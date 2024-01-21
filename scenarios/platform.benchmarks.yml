@@ -40,18 +40,17 @@ scenarios:
     application:
       job: platformbenchmarks
     load:
-      job: wrk
+      job: bombardier
       variables:
         presetHeaders: plaintext
         path: /plaintext
-        pipeline: 16
         connections: 1024
 
   json:
     application:
       job: platformbenchmarks
     load:
-      job: wrk
+      job: bombardier
       variables:
         presetHeaders: json
         path: /json

@@ -41,11 +41,10 @@ scenarios:
       variables:
         scenario: plaintext
     load:
-      job: wrk
+      job: bombardier
       variables:
         presetHeaders: plaintext
         path: /plaintext
-        pipeline: 16
 
   https:
     application:

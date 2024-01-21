@@ -41,7 +41,7 @@ scenarios:
       variables:
         scenario: json
     load:
-      job: wrk
+      job: bombarier
       variables:
         presetHeaders: json
         path: /json
