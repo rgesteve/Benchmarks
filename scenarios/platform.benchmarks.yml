@@ -45,7 +45,7 @@ scenarios:
         presetHeaders: plaintext
         path: /plaintext
         connections: 1024
-	duration: 8
+        duration: 8
 
   json:
     application:
@@ -56,7 +56,7 @@ scenarios:
         presetHeaders: json
         path: /json
         connections: 512
-	duration: 8
+        duration: 8
 
   fortunes:
     db:
