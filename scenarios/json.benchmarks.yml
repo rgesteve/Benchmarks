@@ -41,10 +41,11 @@ scenarios:
       variables:
         scenario: json
     load:
-      job: bombarier
+      job: bombardier
       variables:
         presetHeaders: json
         path: /json
+	duration: 8
 
   https:
     application:

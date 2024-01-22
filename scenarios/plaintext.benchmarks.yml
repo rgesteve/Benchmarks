@@ -45,6 +45,7 @@ scenarios:
       variables:
         presetHeaders: plaintext
         path: /plaintext
+	duration: 8
 
   https:
     application:
